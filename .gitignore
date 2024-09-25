@@ -1,0 +1,38 @@
+# CMake Files
+
+CMakeFiles
+CMakeCache.txt
+Makefile
+
+# CMake Headers
+
+cmake.h
+gitversion.h
+
+# CMake Packaging
+
+cmake_install.cmake
+CPackConfig.cmake
+CPackSourceConfig.cmake
+_CPack_Packages/
+
+# General
+
+*.o
+*.a
+*.so
+*.db
+*.log
+*.exe
+*.dll
+*.pyc
+__pycache__
+
+# Server
+
+atrinik-server
+server-custom.cfg
+permissions-custom.cfg
+src/loaders/*.c
+data
+lib
