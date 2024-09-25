@@ -1311,7 +1311,7 @@ static PyObject *Atrinik_RegisterCommand(PyObject *self, PyObject *args)
 static const char doc_Atrinik_CreatePathname[] =
 ".. function:: CreatePathname(path).\n\n"
 "Creates path to a file in the maps directory. For example, '/hall_of_dms' -> "
-"'../maps/hall_of_dms'.\n\n"
+"'maps/hall_of_dms'.\n\n"
 ":param path: Path to the map.\n"
 ":type path: str\n"
 ":returns: Real path of the map on the system.\n"

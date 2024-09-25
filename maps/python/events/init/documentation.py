@@ -313,6 +313,6 @@ if not GetSettings()["unit_tests"] and not GetSettings()["plugin_unit_tests"]:
     scan("src/server")
     scan("src/plugins/plugin_python/include")
     scan("src/include")
-    matches.update(parser.parse("../common/toolkit/socket.h"))
+    matches.update(parser.parse("common/toolkit/socket.h"))
 
     main()

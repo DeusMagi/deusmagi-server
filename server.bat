@@ -11,6 +11,6 @@ if not exist "data" (
 	md data\tmp
 )
 
-copy ..\arch\*.* lib\*.*
+copy arch\*.* lib\*.*
 
 atrinik-server.exe --logfile=logfile.log
