@@ -13,4 +13,4 @@ if not exist "data" (
 
 copy arch\*.* lib\*.*
 
-atrinik-server.exe --logfile=logfile.log
+deusmagi-server.exe --logfile=logfile.log

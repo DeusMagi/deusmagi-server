@@ -20,7 +20,7 @@ cp arch/* lib > /dev/null 2>&1
 # executable. Otherwise, start up the server with some sane options,
 # which includes redirecting the log to a file.
 if [ -t 1 ]; then
-	./atrinik-server "$@"
+	./deusmagi-server "$@"
 else
-	./atrinik-server --logfile=logfile.log
+	./deusmagi-server --logfile=logfile.log
 fi

@@ -1,8 +1,8 @@
 #!/bin/sh
 #
-# This is the Atrinik loop and log script
+# This is the Deus Magi loop and log script
 
-CMDNAME="./atrinik-server"
+CMDNAME="./deusmagi-server"
 maxrestart=500
 logdir="data/log"
 
@@ -18,7 +18,7 @@ mkdir $logdir
 python ../tools/collect.py --out lib/
 
 while [ ! "$logcount"x = "$maxrestart"x ]; do
-	echo "Starting Atrinik `date` for the $logcount time..." 1>$logdir/$logcount 2>&1
+	echo "Starting Deus Magi `date` for the $logcount time..." 1>$logdir/$logcount 2>&1
 	$CMDNAME -d 2>>$logdir/$logcount 1>&2
 
 	if [ -f core ]; then

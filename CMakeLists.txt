@@ -1,9 +1,7 @@
-# The Atrinik server CMakeLists file.
-
-project(atrinik-server C)
+project(deusmagi-server C)
 cmake_minimum_required(VERSION 3.2)
-set(EXECUTABLE atrinik-server)
-set(PACKAGE_NAME "Atrinik Server")
+set(EXECUTABLE deusmagi-server)
+set(PACKAGE_NAME "Deus Magi Server")
 
 # Need Flex...
 find_package(FLEX REQUIRED)
@@ -172,7 +170,7 @@ endif ()
 
 # Compile the sources into an executable.
 add_executable(${EXECUTABLE} ${SOURCES} ${LEXERS_OUT} ${SOURCES_CHECK} ${SOURCES_WORLD_MAKER})
-target_link_libraries(${EXECUTABLE} atrinik-toolkit)
+target_link_libraries(${EXECUTABLE} deusmagi-toolkit)
 target_link_libraries(${EXECUTABLE} -Xlinker --allow-multiple-definition)
 
 # Link libraries.
