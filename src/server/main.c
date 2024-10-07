@@ -28,7 +28,6 @@
  */
 
 #include <global.h>
-#include <toolkit/gitversion.h>
 #include <toolkit/string.h>
 #include <plugin.h>
 #include <arch.h>
@@ -87,10 +86,6 @@ void version(object *op)
     char buf[HUGE_BUF];
 
     snprintf(VS(buf), "This is Atrinik v%s", PACKAGE_VERSION);
-#ifdef GITVERSION
-    snprintfcat(VS(buf), "%s", " (" STRINGIFY(GITBRANCH) "/"
-            STRINGIFY(GITVERSION) " by " STRINGIFY(GITAUTHOR) ")");
-#endif
 
     if (op != NULL) {
         draw_info(COLOR_WHITE, op, buf);
