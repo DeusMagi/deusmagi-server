@@ -1449,7 +1449,7 @@ There are two choices for movement: keyboard and mouse. Mouse-based movement is 
 Move the mouse over the map area, and you'll see the square below your mouse highlighted with green borders. If you click that area, your character will try to move there.
 
 [b]Keyboard:[/b]
-You can use the keyboard numpad to move around, for example, [b]3[/b] on the numpad would move your character one step east. You can hold down the numpad key to run in this manner in the direction specified by the numpad key you are holding down. If you want to stop running, simply release the key.
+You can use the keyboard arrow keys to move around, for example, the [b]right arrow[/b] would move your character one step east. You can hold down the arrow key to run in that direction. If you want to stop running, simply release the key.
 
 [title]Obstacles[/title]
 There are many obstacles to walk around in the world, ranging from trees to rocks, walls, deep water, doors, gates and the like.
