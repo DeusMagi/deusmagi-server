@@ -3,9 +3,29 @@ title General Help
 msg
 Deus Magi is a Multiplayer Online Role-Playing Game that was forked from Atrinik, which was originally created by Alex Tokar in 2009. Visit the website at [a=url]http://deusmagi.com[/a] for FAQ, playing guides, and more.
 
-Quick help:
+Movement:
+- Move with the ARROW keys or LMB (Left Mouse Button)
+- Hold ALT + ARROW keys or LMB to run
 
-Move with numpad keys. Press C to toggle combat mode on/off. Press X to target nearest enemy. Press S to target nearest friend. Press A to apply things on ground or in your inventory. Press ENTER to show the console box. Press SHIFT to show your inventory. Use ARROW keys to move around in your inventory. Hold ALT + direction to run. Hold CTRL + direction to cast/shoot.
+Combat:
+- Press C to toggle combat mode on/off
+- Press X to target nearest enemy
+- Press S to target nearest friend
+- Hold CTRL + LMB to cast/shoot
+
+Items:
+- Press A to apply items on the ground or in your inventory
+- Press A x 2 to open a container in your inventory
+- Press M to mark items in your inventory
+- Press G to grab items on the ground
+
+User Interface:
+- Press ENTER to enter a command or chat
+- Press SHIFT to toggle your inventory
+- Hold SHIFT + TAB to switch between the ground and your inventory
+- Hold CTRL + ARROW keys to move around in your inventory
+- Press the UP/DOWN ARROW keys to scroll windows
+
 
 [title]See Also:[/title]
 List of [a=help]contributors[/a]
