@@ -20,16 +20,15 @@ Items:
 - Press G to grab items on the ground
 
 User Interface:
-- Press ENTER to enter a command or chat
-- Press SHIFT to toggle your inventory
+- Press ENTER to type a command or chat
+- Press TAB to toggle your inventory
 - Hold SHIFT + TAB to switch between the ground and your inventory
 - Hold CTRL + ARROW keys to move around in your inventory
 - Press the UP/DOWN ARROW keys to scroll windows
 
-
-[title]See Also:[/title]
-List of [a=help]contributors[/a]
-[a=help:basics_main]Basics[/a] (Tutorial pages)
+[title]Additional Info[/title]
+Game [a=help:basics_main]Tutorials[/a]
+List of [a=help]Contributors[/a]
 
 [title]Useful Commands[/title]
 [a=help]afk[/a]
